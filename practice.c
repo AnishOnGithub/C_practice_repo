@@ -29,18 +29,27 @@ int main() {
 
 //code to convert the given values into ocal and hexadecimal form
 
-int a,octal,hexa;
-printf("Enter a number: ");
-scanf("%d",&a);
-printf("\n\nthe octal value for %d is %o",a,a);
-printf("\nthe hexadecimal value for %d is %x",a,a);
+// int a,octal,hexa;
+// printf("Enter a number: ");
+// scanf("%d",&a);
+// printf("\n\nthe octal value for %d is %o",a,a);
+// printf("\nthe hexadecimal value for %d is %x",a,a);
 
 // area of circle
-float a,area;
-printf("enter the radius: ");
-scanf("%f",&a);
-area=3.14*a*a;
-printf("area of the circle of the radius %f is %f ",a,area);
+// float a,area;
+// printf("enter the radius: ");
+// scanf("%f",&a);
+// area=3.14*a*a;
+// printf("area of the circle of the radius %f is %f ",a,area);
 
+// area of triangle 
+float height, base, area;
+printf("enter height : ");
+scanf("%f",&height);
 
+printf("enter base: ");
+scanf("%f",&base);
+
+area= (0.5* base * height);
+printf("the area of the circle is: %f",area);
 } 
