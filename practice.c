@@ -43,13 +43,25 @@ int main() {
 // printf("area of the circle of the radius %f is %f ",a,area);
 
 // area of triangle 
-float height, base, area;
-printf("enter height : ");
-scanf("%f",&height);
+// float height, base, area;
+// printf("enter height : ");
+// scanf("%f",&height);
 
-printf("enter base: ");
-scanf("%f",&base);
+// printf("enter base: ");
+// scanf("%f",&base);
 
-area= (0.5* base * height);
-printf("the area of the circle is: %f",area);
+// area= (0.5* base * height);
+// printf("the area of the circle is: %f",area);
+
+
+//loops 
+
+//print nummber from 1 to 10
+
+
+for (int i=0;i<=10;i++){
+printf("%d\n",i);
+}
+
+
 } 
