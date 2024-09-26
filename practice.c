@@ -54,14 +54,31 @@ int main() {
 // printf("the area of the circle is: %f",area);
 
 
-//loops 
+//for loop
 
 //print nummber from 1 to 10
 
+// for (int i=0;i<=10;i++){
+// printf("%d\n",i);
+// }
 
-for (int i=0;i<=10;i++){
-printf("%d\n",i);
+//print a to z
+
+// for(char ch='a'; ch<='z';ch++){
+// printf("%c\n",ch);
+//  }
+// return 0;
+
+
+//while loop
+
+int n;
+printf("Enter any number: ");
+scanf("%d",&n);
+
+int i=0;
+while(i<=n){
+    printf("%d",i);
+    i++;
 }
-
-
-} 
+}  
