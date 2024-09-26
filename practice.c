@@ -72,13 +72,26 @@ int main() {
 
 //while loop
 
-int n;
-printf("Enter any number: ");
-scanf("%d",&n);
+// int n;
+// printf("Enter any number: ");
+// scanf("%d",&n);
 
-int i=0;
-while(i<=n){
-    printf("%d",i);
-    i++;
-}
+// int i=0;
+// while(i<=n){
+//     printf("%d",i);
+//     i++;
+// }
+
+
+    float celsius, fahrenheit;
+
+    // Input temperature in Celsius
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    // Convert Celsius to Fahrenheit
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    // Output the result
+    printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
 }  
