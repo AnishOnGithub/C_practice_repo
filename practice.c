@@ -83,15 +83,28 @@ int main() {
 // }
 
 
-    float celsius, fahrenheit;
+    // float celsius, fahrenheit;
 
-    // Input temperature in Celsius
-    printf("Enter temperature in Celsius: ");
-    scanf("%f", &celsius);
+    // // Input temperature in Celsius
+    // printf("Enter temperature in Celsius: ");
+    // scanf("%f", &celsius);
 
-    // Convert Celsius to Fahrenheit
-    fahrenheit = (celsius * 9 / 5) + 32;
+    // // Convert Celsius to Fahrenheit
+    // fahrenheit = (celsius * 9 / 5) + 32;
 
-    // Output the result
-    printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
+    // // Output the result
+    // printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
+
+    //code to ceck if the input number is odd or even
+
+    int a;
+    printf("Enter the number: ");
+    scanf("%d",&a);
+   
+    if(a%2==0){
+        printf("The number is even");
+    }
+    else{
+        printf("the number is odd");
+    }
 }  
