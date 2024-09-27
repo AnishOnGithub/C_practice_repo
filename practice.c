@@ -97,14 +97,31 @@ int main() {
 
     //code to ceck if the input number is odd or even
 
-    int a;
-    printf("Enter the number: ");
-    scanf("%d",&a);
+    // int a;
+    // printf("Enter the number: ");
+    // scanf("%d",&a);
    
-    if(a%2==0){
-        printf("The number is even");
-    }
-    else{
-        printf("the number is odd");
-    }
+    // if(a%2==0){
+    //     printf("The number is even");
+    // }
+    // else{
+    //     printf("the number is odd");
+    // }
+
+    //code to check if the number is odd or even
+     
+     int a;
+     printf("Enter the number: ");
+     scanf("%d",&a);
+     if(a>0){
+        printf("The number is positive");
+     }
+     else if(a<0){
+        printf("The given number is negetive ");
+     }
+     else
+     printf("The number is neutral");
+
+
+
 }  
