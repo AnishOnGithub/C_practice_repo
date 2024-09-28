@@ -110,17 +110,38 @@ int main() {
 
     //code to check if the number is odd or even
      
-     int a;
-     printf("Enter the number: ");
-     scanf("%d",&a);
-     if(a>0){
-        printf("The number is positive");
-     }
-     else if(a<0){
-        printf("The given number is negetive ");
-     }
-     else
-     printf("The number is neutral");
+   //   int a;
+   //   printf("Enter the number: ");
+   //   scanf("%d",&a);
+   //   if(a>0){
+   //      printf("The number is positive");
+   //   }
+   //   else if(a<0){
+   //      printf("The given number is negetive ");
+   //   }
+   //   else
+   //   printf("The number is neutral");
+
+//    static int i=5;
+// if (i--)
+// {
+// printf("%d ",i);
+// main();
+// }
+// return (0);
+
+//code to find out surface area of a cuboid
+
+int a,b,c,surfaceArea;
+printf("enter the length of the cuboid: ");
+scanf("%d",&a);
+printf("enter the width of the cuboid: ");
+scanf("%d",&b);
+printf("enter the height of the cuboid: ");
+scanf("%d",&c);
+
+surfaceArea=2*a*b+2*a*c+2*c*b;
+printf("The surface area for the cuboid is %d",surfaceArea);
 
 
 
