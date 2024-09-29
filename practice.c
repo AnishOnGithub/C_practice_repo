@@ -132,16 +132,33 @@ int main() {
 
 //code to find out surface area of a cuboid
 
-int a,b,c,surfaceArea;
-printf("enter the length of the cuboid: ");
-scanf("%d",&a);
-printf("enter the width of the cuboid: ");
-scanf("%d",&b);
-printf("enter the height of the cuboid: ");
-scanf("%d",&c);
+// int a,b,c,surfaceArea;
+// printf("enter the length of the cuboid: ");
+// scanf("%d",&a);
+// printf("enter the width of the cuboid: ");
+// scanf("%d",&b);
+// printf("enter the height of the cuboid: ");
+// scanf("%d",&c);
 
-surfaceArea=2*a*b+2*a*c+2*c*b;
-printf("The surface area for the cuboid is %d",surfaceArea);
+// surfaceArea=2*a*b+2*a*c+2*c*b;
+// printf("The surface area for the cuboid is %d",surfaceArea);
+
+//code to get average of marks of user using far loop 
+
+int i,numSubjects,averageMarks,total=0,marks;
+
+printf("Enter the number of subjects: ");
+scanf("%d",&numSubjects);
+
+for(i=0;i<numSubjects;i++){
+    printf("Enter the marks for subject %d: ", i + 1);
+
+    scanf("%d",&marks);
+    total+=marks;
+    }
+printf("Total Marks: %d\n", total);
+averageMarks=total/numSubjects;
+printf("%d",averageMarks);
 
 
 
