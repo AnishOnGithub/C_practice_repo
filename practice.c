@@ -145,21 +145,131 @@ int main() {
 
 //code to get average of marks of user using far loop 
 
-int i,numSubjects,averageMarks,total=0,marks;
+// int i,numSubjects,averageMarks,total=0,marks;
 
-printf("Enter the number of subjects: ");
-scanf("%d",&numSubjects);
+// printf("Enter the number of subjects: ");
+// scanf("%d",&numSubjects);
 
-for(i=0;i<numSubjects;i++){
-    printf("Enter the marks for subject %d: ", i + 1);
+// for(i=0;i<numSubjects;i++){
+//     printf("Enter the marks for subject %d: ", i + 1);
 
-    scanf("%d",&marks);
-    total+=marks;
-    }
-printf("Total Marks: %d\n", total);
-averageMarks=total/numSubjects;
-printf("%d",averageMarks);
+//     scanf("%d",&marks);
+//     total+=marks;
+//     }
+// printf("Total Marks: %d\n", total);
+// averageMarks=total/numSubjects;
+// printf("%d",averageMarks);
+
+// int a=456;
+// int a=444;
+// printf(a);
 
 
+// { int n=7,p; p=n++;
+// printf("p=%d n=%d\n"
+// ,p,n);
+// p=++n;
+// printf("p=%d n=%d\n"
+// ,p,n);
+// printf("%d %d %d\n"
+// ,n++,n++,n++);
+// printf("%d %d %d\n"
+// ,++p,++p,++p);
+// }
+
+
+//4
+//code for num table 
+
+//  int n;
+
+//     printf("Enter the value of n: ");
+//     scanf("%d", &n);
+
+//     for (int i = 1; i <= n; i++) {
+        
+//         for (int j = 1; j <= 3; j++) {
+//             printf("%d * %d = %d\n", i, j, i * j);
+//         }
+//         printf("\n");
+//     }
+
+//code 2 to print even numbers
+
+    // for (int i = 1; i <= 50; i++) {
+    //     if (i % 2 != 0 || i % 5 == 0) {
+    //         continue;
+    //     }
+    //     printf("%d\n", i);
+
+
+
+//code 3 month and season
+//  int m;
+
+//     printf("Enter month number (1-12): ");
+//     scanf("%d", &m);
+
+//     if (m < 1 || m > 12) {
+//         printf("Error: Invalid month\n");
+//     } else {
+//         switch(m) {
+//             case 1:  printf("January - Winter\n"); break;
+//             case 2:  printf("February - Winter\n"); break;
+//             case 3:  printf("March - Spring\n"); break;
+//             case 4:  printf("April - Spring\n"); break;
+//             case 5:  printf("May - Spring\n"); break;
+//             case 6:  printf("June - Summer\n"); break;
+//             case 7:  printf("July - Summer\n"); break;
+//             case 8:  printf("August - Summer\n"); break;
+//             case 9:  printf("September - Autumn\n"); break;
+//             case 10: printf("October - Autumn\n"); break;
+//             case 11: printf("November - Autumn\n"); break;
+//             case 12: printf("December - Winter\n"); break;
+//         }
+//     }
+
+//code 4 calculator
+
+
+    // float num1, num2;
+    // int choice;
+
+    // printf("Enter two numbers: ");
+    // scanf("%f %f", &num1, &num2);
+
+    // printf("Select an operation:\n");
+    // printf("1. Addition\n");
+    // printf("2. Subtraction\n");
+    // printf("3. Multiplication\n");
+    // printf("4. Division\n");
+    // printf("Enter your choice (1-4): ");
+    // scanf("%d", &choice);
+
+    // switch (choice) {
+    //     case 1:
+    //         printf("Result: %.3f\n", num1 + num2);
+    //         break;
+    //     case 2:
+    //         printf("Result: %.3f\n", num1 - num2);
+    //         break;
+    //     case 3:
+    //         printf("Result: %.3f\n", num1 * num2);
+    //         break;
+    //     case 4:
+    //         if (num2 != 0)
+    //             printf("Result: %.3f\n", num1 / num2);
+    //         else
+    //             printf("Error: Division by zero\n");
+    //         break;
+    //     default:
+    //         printf("Error: Invalid choice\n");
+    // }
+
+
+  
+   
+   
+   
 
 }  
