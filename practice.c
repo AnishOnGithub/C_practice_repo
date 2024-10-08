@@ -229,7 +229,7 @@ int main() {
 //         }
 //     }
 
-//code 4 calculator
+// code 4 calculator
 
 
     // float num1, num2;
@@ -267,9 +267,55 @@ int main() {
     // }
 
 
-  
-   
-   
-   
 
-}  
+    //code 5
+    //     int i, j, a, n, number[30];
+    //     printf("Enter the value of N ");
+    //     scanf("%d", &n);
+ 
+    //     printf("Enter the numbers ");
+    //     for (i = 0; i < n; ++i)
+    //         scanf("%d", &number[i]);
+ 
+    //     for (i = 0; i < n; ++i) 
+    //     {
+ 
+    //         for (j = i + 1; j < n; ++j)
+    //         {
+ 
+    //             if (number[i] > number[j]) 
+    //             {
+ 
+    //                 a =  number[i];
+    //                 number[i] = number[j];
+    //                 number[j] = a;
+    //             }
+    //         }
+    //     }
+ 
+    //     printf("The numbers arranged in ascending order are given below \n");
+    //     for (i = 0; i < n; ++i)
+    //         printf("%d\n", number[i]);
+ 
+    // }
+    //
+
+   
+//     int numbers[10], sum = 0;
+//     printf("Enter the numbers: ");
+    
+//     for (int i = 0; i < 10; i++) {
+//         scanf("%d", &numbers[i]);
+//     }
+    
+//     for (int i = 0; i < 10; i++) {
+//         if (numbers[i] % 2 == 0) {
+//             sum += numbers[i];
+//         }
+//     }
+    
+//     printf("Sum of even numbers is: %d\n", sum);
+    
+//     return 0;
+
+// }
