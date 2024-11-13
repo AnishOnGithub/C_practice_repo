@@ -1,6 +1,5 @@
 #include <stdio.h>
 // code to print last 2 digits of users phone number 
-int main() {
     // int num,lastDigits;
     // printf("Enter the number: ");
     // scanf("%d",&num);
@@ -269,36 +268,36 @@ int main() {
 
 
     //code 5
-    //     int i, j, a, n, number[30];
-    //     printf("Enter the value of N ");
-    //     scanf("%d", &n);
+        // int i, j, a, n, number[30];
+        // printf("Enter the value of N ");
+        // scanf("%d", &n);
  
-    //     printf("Enter the numbers ");
-    //     for (i = 0; i < n; ++i)
-    //         scanf("%d", &number[i]);
+        // printf("Enter the numbers ");
+        // for (i = 0; i < n; ++i)
+        //     scanf("%d", &number[i]);
  
-    //     for (i = 0; i < n; ++i) 
-    //     {
+        // for (i = 0; i < n; ++i) 
+        // {
  
-    //         for (j = i + 1; j < n; ++j)
-    //         {
+        //     for (j = i + 1; j < n; ++j)
+        //     {
  
-    //             if (number[i] > number[j]) 
-    //             {
+        //         if (number[i] > number[j]) 
+        //         {
  
-    //                 a =  number[i];
-    //                 number[i] = number[j];
-    //                 number[j] = a;
-    //             }
-    //         }
-    //     }
+        //             a =  number[i];
+        //             number[i] = number[j];
+        //             number[j] = a;
+        //         }
+        //     }
+        // }
  
-    //     printf("The numbers arranged in ascending order are given below \n");
-    //     for (i = 0; i < n; ++i)
-    //         printf("%d\n", number[i]);
+        // printf("The numbers arranged in ascending order are given below \n");
+        // for (i = 0; i < n; ++i)
+        //     printf("%d\n", number[i]);
  
-    // }
-    //
+   // }
+    
 
    
 //     int numbers[10], sum = 0;
@@ -319,3 +318,181 @@ int main() {
 //     return 0;
 
 // }
+
+//code 2 sum of even numbers 
+//     int numbers[10], sum = 0;
+
+    
+//     printf("Enter the numbers: ");
+//     for (int i = 0; i < 10; i++) {
+//         scanf("%d", &numbers[i]);
+//     }
+
+ 
+//     for (int i = 0; i < 10; i++) {
+//         if (numbers[i] % 2 == 0) {  
+//             sum += numbers[i];      
+//         }
+//     }
+//     printf("Sum of even numbers is: %d\n", sum);
+
+//     return 0;
+// }
+
+//code 3
+
+
+//     int n;
+
+//     // Input: Read the number of elements
+//     printf("Input the number of elements to store in the array: ");
+//     scanf("%d", &n);
+
+//     int numbers[n];
+
+//     // Input: Read 'n' elements into the array
+//     printf("Input %d number of elements in the array:\n", n);
+//     for (int i = 0; i < n; i++) {
+//         printf("element - %d: ", i);
+//         scanf("%d", &numbers[i]);
+//     }
+
+//     // Output: Display the values stored in the array
+//     printf("The values stored into the array are: ");
+//     for (int i = 0; i < n; i++) {
+//         printf("%d ", numbers[i]);
+//     }
+
+//     // Output: Display the values in reverse order
+//     printf("\nThe values stored into the array in reverse are: ");
+//     for (int i = n - 1; i >= 0; i--) {
+//         printf("%d ", numbers[i]);
+//     }
+
+//     return 0;
+// }
+
+//code 4
+
+//     int A[3][3] = {
+//         {4, 6, 9},
+//         {2, 5, 8},
+//         {1, 3, 7}
+//     };
+
+//     int sum1 = 0, sum2 = 0;
+
+//     for (int i = 0; i < 3; i++) {
+//         for (int j = 0; j < 3; j++) {
+//             if ((i + j) % 2 == 0) {
+//                 sum1 += A[i][j];
+//             } else {
+//                 sum2 += A[i][j];
+//             }
+//         }
+//     }
+
+//     printf("Sum of  elements 1: %d\n", sum1);
+//     printf("Sum of  elements 2: %d\n", sum2);
+
+//     return 0;
+// }
+
+//----------------------------------------------------------------------------------------------------------------------------------
+
+//7) code 1
+
+
+// #include <string.h>
+// #define ALPHABET_SIZE 26
+// int isPangram(const char *sentence)
+// {
+//     int alphabet[ALPHABET_SIZE] = { 0 },i,index; 
+// 	char ch; 
+//     for (i = 0; sentence[i] != '\0'; i++) {
+//         ch = sentence[i];
+//         if (ch >= 'a' && ch <= 'z') {
+//              index = ch - 'a';
+//             alphabet[index] = 1; 
+//         }
+//     }
+//     for (int i = 0; i < ALPHABET_SIZE; i++) {
+//         if (alphabet[i] == 0) {
+//             return 0; 
+//         }
+//     } 
+// }
+
+// int main() {
+//     const char *sentence = "The quick brown fox jumps over the lazy dog";
+//     if (isPangram(sentence)) {
+//         printf("The sentence is a pangram.\n");
+//     } else {
+//         printf("The sentence is not a pangram.\n");
+//     }
+// }
+
+
+//practice 8
+
+//code 1
+
+// void distribution(int A, int B){
+//     int totalChoco=A+B;
+//     printf("Total chocolates are %d \n",A+B);
+//     if(totalChoco%2==0){
+//         printf("Chocolates can be divided");
+//     }else{
+//         printf("Chocolates cant be divided");
+//     }
+// }
+
+// int main(){
+//     int A, B;
+//     printf("Enter total chocolates: ");
+//     scanf("%d %d",&A,&B);
+//     distribution(A,B);
+// }
+
+
+//code 2 
+// #include <stdio.h>
+
+// void naturalNumbers(int startDigit, int endDigit) {
+//     int i;
+//     for(i = startDigit; i <= endDigit; i++) {
+//         printf("%d ", i);
+//     }
+// }
+
+// int main() {
+//     int startDigit, endDigit;
+//     printf("Enter the first and last number: ");
+//     scanf("%d %d", &startDigit, &endDigit);
+//     naturalNumbers(startDigit, endDigit);
+//     return 0;
+// }
+
+//code 3
+
+
+
+int getLength(char *str) {
+    int length = 0;
+    while (*str != '\0') {
+        length++;
+        str++;
+    }
+    return length;
+}
+
+int main() {
+    char input[100];
+    printf("Enter a string: ");
+    fgets(input, sizeof(input), stdin);
+
+    int length = getLength(input);
+    printf("The length of the input string is: %d\n", length);
+
+    return 0;
+}
