@@ -477,22 +477,22 @@
 
 
 
-int getLength(char *str) {
-    int length = 0;
-    while (*str != '\0') {
-        length++;
-        str++;
-    }
-    return length;
-}
+// int getLength(char *str) {
+//     int length = 0;
+//     while (*str != '\0') {
+//         length++;
+//         str++;
+//     }
+//     return length;
+// }
 
-int main() {
-    char input[100];
-    printf("Enter a string: ");
-    fgets(input, sizeof(input), stdin);
+// int main() {
+//     char input[100];
+//     printf("Enter a string: ");
+//     fgets(input, sizeof(input), stdin);
 
-    int length = getLength(input);
-    printf("The length of the input string is: %d\n", length);
+//     int length = getLength(input);
+//     printf("The length of the input string is: %d\n", length);
 
-    return 0;
-}
+//     return 0;
+// }
